@@ -1,0 +1,51 @@
+
+body {
+    background-color: #f7f9fc;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+.dash-radio-items label {
+    margin: 10px;
+    font-size: 16px;
+    color: #34495e;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #ecf0f1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+input[type="radio"]:checked + label {
+    background-color: #3498db;
+    color: white;
+    border-color: #2980b9;
+}
+
+
+.dash-radio-items {
+    text-align: center;
+    padding: 20px;
+}
+
+
+#sales-line-chart {
+    margin: 20px auto;
+    max-width: 90%;
+    border-radius: 12px;
+    background-color: #ffffff;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
